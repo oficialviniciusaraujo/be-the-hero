@@ -26,6 +26,8 @@ export default function NewIncident(){
             value,
         }
 
+        console.log(data)
+
         try{
             await api.post('incidents', data, {
                 headers: {
@@ -58,12 +60,12 @@ export default function NewIncident(){
                         placeholder="Título do caso" 
                         value={title}
                         onChange={e => setTitle(e.target.value)}
-                    />                                         
-                    <textarea 
-                        placeholder="Descrição" 
+                    />   
+                    <input 
+                        placeholder="Descrição"
                         value={description}
-                        onChange={e => setDescription(e.target.description)}
-                    />
+                        onChange={e => setDescription(e.target.value)}
+                    />                                     
                     <input 
                         placeholder="Valor em reais" 
                         value={value}
