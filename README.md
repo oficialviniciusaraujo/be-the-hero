@@ -3,8 +3,12 @@ Semana OmniStack11.0
 
 # Used Technologies
 - Nodejs
-  - Database SQLite
+  - Cors
+  - Express
+  - Knex
+  - SQLite3
 - Reactjs
+  - Axios
 
 Aplicação de doações para ongs/instituições sem fins lucrativos.
 
