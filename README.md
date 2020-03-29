@@ -7,6 +7,7 @@ Semana OmniStack11.0
   - Express
   - Knex
   - SQLite3
+  - Celebrate
 - Reactjs
   - Axios
 - ReactNative
